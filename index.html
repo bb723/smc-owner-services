@@ -100,6 +100,15 @@
   .pline span:last-child{font-weight:600;font-variant-numeric:tabular-nums;text-align:right;}
   .fineprint{font-size:12px;color:var(--muted);margin-top:10px;}
 
+  /* OPTIONAL MENU */
+  .menu{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:4px;}
+  @media (max-width:760px){.menu{grid-template-columns:1fr;}}
+  .menu h5{font-family:Georgia,serif;font-weight:500;font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--slate);margin:0 0 8px;}
+  .menu ul{list-style:none;margin:0;padding:0;}
+  .menu li{font-size:13.5px;color:var(--slate);padding:6px 0 6px 16px;position:relative;border-bottom:1px solid var(--line);}
+  .menu li:before{content:"";position:absolute;left:0;top:13px;width:6px;height:6px;border-radius:50%;background:var(--accent);}
+  .menu li:last-child{border-bottom:none;}
+
   /* CLOSING CTA */
   .close{
     background:var(--accent-dk);color:#fff;border-radius:14px;padding:28px 24px;text-align:center;margin-top:34px;
@@ -249,6 +258,56 @@
     </div>
   </div>
   <p class="fineprint">Pricing shown is for new owners. Existing clients keep their original contracted rates. Routine rates are typical and may vary by property.</p>
+
+  <!-- PREVENTATIVE (INCLUDED) -->
+  <h3 class="sec">Preventative maintenance &amp; seasonal care</h3>
+  <p class="lead" style="margin-bottom:18px;">Good management is not just filling units, it is keeping them healthy so the small things never become big bills. We build the following into your management by default. They are yours automatically, unless you would rather handle them and opt out.</p>
+  <div class="svc">
+    <div class="scard"><span class="tag inc">Included</span>
+      <h4>Annual preventative maintenance</h4>
+      <p>Once a year we clean your dryer vents, flush the water heater, clear the bathroom exhaust vents, and clean the coils behind the refrigerators. The small stuff that quietly prevents fires, system failures, and surprise repair bills.</p>
+    </div>
+    <div class="scard"><span class="tag inc">Included</span>
+      <h4>Seasonal lawn cleanups</h4>
+      <p>Spring and fall yard cleanups keep the property looking cared for and protect it from leaf buildup, clogged gutters, and freeze damage heading into a Maine winter.</p>
+    </div>
+  </div>
+  <p class="fineprint">Included by default. If you would rather take care of these yourself, just say the word and we will leave them off.</p>
+
+  <!-- OPTIONAL MENU -->
+  <h3 class="sec" style="margin-top:28px;">Optional services we can put on a schedule</h3>
+  <p class="lead" style="margin-bottom:16px;">Want us to do more? Add any of these on the schedule that suits your property.</p>
+  <div class="menu">
+    <div>
+      <h5>Property checks</h5>
+      <ul>
+        <li>Monthly property reviews</li>
+        <li>Quarterly property reviews</li>
+        <li>Vacant unit checks</li>
+      </ul>
+    </div>
+    <div>
+      <h5>Grounds &amp; seasonal</h5>
+      <ul>
+        <li>Gutter cleaning</li>
+        <li>Mulch &amp; garden bed refresh</li>
+        <li>Pressure washing</li>
+        <li>Tree &amp; shrub trimming</li>
+      </ul>
+    </div>
+    <div>
+      <h5>Systems &amp; safety</h5>
+      <ul>
+        <li>Annual heating system tune-up</li>
+        <li>Heat pump &amp; mini-split cleaning</li>
+        <li>Smoke &amp; CO detector testing</li>
+        <li>Chimney sweep &amp; inspection</li>
+        <li>Winterization &amp; freeze checks</li>
+        <li>Quarterly pest control</li>
+      </ul>
+    </div>
+  </div>
+  <p class="fineprint">Optional services are quoted per property and set on the schedule you choose. Ask about any of them during your free rental evaluation.</p>
 
   <!-- CLOSING -->
   <div class="close">
