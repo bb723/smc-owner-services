@@ -5,9 +5,11 @@ A polished, print-ready services + pricing page for prospective owners. Doubles 
 
 - **Hook:** Free Rental Evaluation (no cost, no obligation) — the rung-1 offer for warming
   cold landlord leads.
-- **Lead routing:** tracked line (207) 503-7989 + bbrockway@standardmanagementco.com (logs to
-  `marketing.leads`). Do NOT swap in the old 489-2188 / gmail without a reason — that breaks
-  lead capture.
+- **Contact (Brett's call, 2026-06-18):** sales document, uses cell **(207) 314-8021** +
+  **bbrockway@standardmanagementco.com**. Note the phone is Brett's cell, not the tracked
+  marketing line (207) 503-7989, so calls from this page are captured manually, not auto-logged
+  to `marketing.leads`.
+- **Live URL:** https://bb723.github.io/smc-owner-services/ (GitHub Pages, repo bb723/smc-owner-services, main root). The QR on the page points here.
 - **Brand rules:** no emojis, no em dashes. Plain punctuation only.
 
 ## Use it three ways
